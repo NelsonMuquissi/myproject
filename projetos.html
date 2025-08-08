@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Projetos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html" class="logo">Meu<span>Portfólio</span></a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html" class="ativo">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal">
+        <section class="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                
+                <div class="filtros">
+                    <button class="filtro ativo" data-categoria="todos">Todos</button>
+                    <button class="filtro" data-categoria="web">Web</button>
+                    <button class="filtro" data-categoria="design">Design</button>
+                    <button class="filtro" data-categoria="mobile">Mobile</button>
+                </div>
+                
+                <div class="galeria-projetos">
+                    <div class="projeto-card" data-categoria="web">
+                        <img src="assets/images/portfolio-02.jpg" alt="Projeto Website">
+                        <div class="projeto-info">
+                            <h3>Website Moderno</h3>
+                            <p>Design responsivo com HTML/CSS/JS</p>
+                            <a href="#" class="botao">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-card" data-categoria="design">
+                        <img src="assets/images/portfolio-10.jpg" alt="Projeto UI/UX">
+                        <div class="projeto-info">
+                            <h3>App Financeiro</h3>
+                            <p>Design de interface mobile</p>
+                            <a href="#" class="botao">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Mais projetos aqui -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <!-- Rodapé igual ao index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
